@@ -1,4 +1,4 @@
-# LogisticsApp - B2B Mini-ERP Export Trading Ecosystem 🚀
+# LogisticsApp
 
 [English](#english) | [Tiếng Việt](#tiếng-việt)
 
