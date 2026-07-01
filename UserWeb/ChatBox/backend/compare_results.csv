@@ -1,0 +1,4 @@
+Model,Batch size,Epochs,Train size,Accuracy,Precision,Recall,F1-score
+distilbert-base-uncased,4,5,0.8,0.3684,0.271,0.3684,0.271
+bert-base-uncased,8,5,0.7,0.1786,0.125,0.1786,0.1079
+distilbert-base-uncased,16,3,0.6,0.2267,0.1367,0.2267,0.1286

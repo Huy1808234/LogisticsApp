@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as OrdersList} from './OrdersList.jsx'
+export {default as OrderDetail} from './OrderDetail'
+export {default as VehicleList} from './VehicleList'
+export {default as VehicleOrders} from './VehicleOrders'
+export {default as Login} from './Login'

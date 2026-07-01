@@ -1,0 +1,399 @@
+{
+  "intents": [
+    {
+      "tag": "chao_hoi",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Hello",
+        "Hi",
+        "Chào buổi sáng",
+        "Chào buổi tối",
+        "Hey",
+        "Chào anh",
+        "Chào chị",
+        "Có ai không",
+        "Bot ơi",
+        "Ê bot",
+        "Tôi cần nói chuyện",
+        "Bot ơi",
+        "Ê bot",
+        "Tôi cần nói chuyện",
+        "Có thể giúp tôi không?",
+        "Bạn ở đó không",
+        "Mình mới đến",
+        "Tôi mới vào",
+        "Có thể hỏi bạn một chút?"
+      ],
+      "responses": [
+        "Chào bạn, tôi có thể giúp gì?",
+        "Xin chào! Tôi có thể hỗ trợ gì cho bạn?",
+        "Chào bạn! Bạn cần giúp gì nào?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "tam_biet",
+      "patterns": [
+        "Tạm biệt",
+        "Bye",
+        "Chào tạm biệt",
+        "Hẹn gặp lại",
+        "Tôi đi đây",
+        "Tôi thoát đây",
+        "Goodbye",
+        "Chào nhé",
+        "Bai",
+        "Bai nhé"
+      ],
+      "responses": [
+        "Tạm biệt bạn, hẹn gặp lại!",
+        "Chúc bạn một ngày tốt lành!",
+        "Cảm ơn bạn đã sử dụng dịch vụ!"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "hoi_khuyen_mai",
+      "patterns": [
+        "Có chương trình khuyến mãi không",
+        "Shop đang có giảm giá không",
+        "Ưu đãi hôm nay là gì",
+        "Khuyến mãi như thế nào",
+        "Mã giảm giá có không",
+        "Tôi muốn biết ưu đãi mới nhất",
+        "Shop có freeship không",
+        "Có chương trình ưu đãi nào hôm nay không"
+      ],
+      "responses": [
+        "Hiện tại, chúng tôi có nhiều chương trình khuyến mãi hấp dẫn. Bạn vui lòng vào website hoặc liên hệ tổng đài để biết thêm chi tiết nhé!",
+        "Chúng tôi đang có ưu đãi cho các đơn hàng liên tỉnh. Vui lòng cung cấp khu vực để tôi kiểm tra giúp bạn.",
+        "Có đấy ạ! Bạn cần giao hàng khu vực nào để tôi tư vấn gói ưu đãi phù hợp."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "cam_on",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Thanks",
+        "Cảm ơn nhiều",
+        "Biết ơn bạn",
+        "Cảm ơn rất nhiều",
+        "Thank you",
+        "Cảm ơn nhiều",
+        "Biết ơn bạn",
+        "Cảm ơn rất nhiều",
+        "Mình cảm kích lắm",
+        "Rất biết ơn",
+        "Thank u",
+        "Cảm ơn nha"
+      ],
+      "responses": [
+        "Không có gì ạ!",
+        "Rất vui được giúp đỡ bạn!",
+        "Bạn cần gì thêm không?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "xin_loi",
+      "patterns": [
+        "Xin lỗi",
+        "Mình xin lỗi",
+        "Tôi lỡ tay",
+        "Sorry",
+        "Thật xin lỗi"
+      ],
+      "responses": [
+        "Không sao ạ, tôi vẫn ở đây để giúp bạn!",
+        "Không có vấn đề gì cả!",
+        "Mọi chuyện đều ổn, bạn cần hỗ trợ gì?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "tao_don",
+      "patterns": [
+        "Tạo đơn hàng",
+        "Tôi muốn đặt hàng",
+        "Mua hàng",
+        "Tôi cần mua hàng",
+        "Tạo đơn",
+        "Làm đơn hàng",
+        "Đặt hàng",
+        "Mở đơn hàng mới",
+        "Tôi muốn tạo đơn ngay",
+        "Mình cần gửi hàng gấp",
+        "Gửi hàng cho tôi nhé",
+        "Giúp mình gửi hàng nha",
+        "Làm giúp mình cái đơn hàng",
+        "Tôi cần tạo một đơn vận chuyển",
+        "Gửi hàng hóa từ A đến B",
+        "Đăng ký đơn hàng mới"
+      ],
+      "responses": [
+        "Bạn muốn tạo đơn hàng. Cho tôi biết tên người gửi?",
+        "Được thôi, bắt đầu nhé! Tên người gửi là gì?",
+        "Bạn vui lòng cung cấp thông tin người gửi để bắt đầu."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "kiem_tra_don",
+      "patterns": [
+        "Kiểm tra đơn hàng",
+        "Đơn hàng của tôi đâu",
+        "Tra cứu đơn hàng",
+        "Đơn hàng đang ở đâu",
+        "Check đơn",
+        "Tra đơn",
+        "Xem đơn hàng",
+        "Tình trạng đơn hàng",
+        "Đơn 123 đâu rồi",
+        "Check đơn hàng 456",
+        "Tra đơn giúp mình với",
+        "Đơn hàng đến đâu rồi vậy",
+        "Coi giùm đơn hàng với",
+        "Tình trạng giao tới đâu rồi",
+        "Tôi muốn biết đơn 789 hiện đang ở đâu"
+      ],
+      "responses": [
+        "Vui lòng cho tôi mã đơn hàng để kiểm tra!",
+        "Bạn có thể cung cấp mã đơn không?",
+        "Cho tôi xin mã đơn để tra cứu nhé."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "huy_don",
+      "patterns": [
+        "Huỷ đơn",
+        "Tôi muốn huỷ đơn hàng",
+        "Không lấy hàng nữa",
+        "Huỷ đơn hàng giúp tôi",
+        "Bỏ đơn hàng",
+        "Không nhận hàng"
+      ],
+      "responses": [
+        "Vui lòng gửi mã đơn hàng để tôi hỗ trợ huỷ nhé.",
+        "Tôi cần mã đơn hàng để huỷ, bạn có thể cung cấp không?",
+        "Cho tôi biết mã đơn hàng bạn muốn huỷ nhé!"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "theo_doi_don",
+      "patterns": [
+        "Theo dõi đơn hàng",
+        "Gói hàng đang ở đâu",
+        "Đơn hàng đến đâu rồi",
+        "Tình trạng giao hàng",
+        "Kiểm tra vị trí đơn"
+      ],
+      "responses": [
+        "Cho tôi xin mã đơn để kiểm tra vị trí hiện tại nhé!",
+        "Bạn vui lòng cung cấp mã đơn để tôi theo dõi."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "ho_tro",
+      "patterns": [
+        "Tôi cần hỗ trợ",
+        "Giúp tôi với",
+        "Tôi gặp lỗi",
+        "Tôi không biết làm sao",
+        "Không biết thao tác",
+        "Tôi bị lỗi",
+        "Không biết làm gì"
+      ],
+      "responses": [
+        "Bạn vui lòng nói rõ hơn để tôi hỗ trợ nhé!",
+        "Tôi đang ở đây, bạn cần tôi giúp gì?",
+        "Bạn gặp lỗi gì vậy?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "thoi_gian_giao",
+      "patterns": [
+        "Bao lâu nhận được hàng",
+        "Giao hàng mất bao lâu",
+        "Khi nào giao",
+        "Thời gian giao hàng",
+        "Hàng tới lúc nào"
+      ],
+      "responses": [
+        "Thời gian giao hàng từ 1–3 ngày tùy khu vực bạn nhé!",
+        "Thông thường đơn hàng sẽ tới trong 1-2 ngày làm việc."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "hoi_gio_lam_viec",
+      "patterns": [
+        "Giờ làm việc",
+        "Thời gian làm việc",
+        "Mấy giờ mở cửa",
+        "Shop mở lúc mấy giờ",
+        "Giờ hỗ trợ",
+        "Mở cửa lúc nào",
+        "Công Ty làm việc từ mấy giờ đến mấy giờ nhỉ"
+      ],
+      "responses": [
+        "Chúng tôi làm việc từ 8:00 đến 22:00 mỗi ngày!",
+        "Thời gian làm việc là 8h sáng đến 10h tối (T2-CN)."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "tinh_phi_giao_hang",
+      "patterns": [
+        "Tính phí ship",
+        "Tính tiền vận chuyển",
+        "Cước phí bao nhiêu",
+        "Giao hàng giá bao nhiêu",
+        "Ship hết bao nhiêu tiền",
+        "Phí gửi hàng là bao nhiêu vậy",
+        "Tôi muốn biết phí giao hàng",
+        "Có thể tính giúp phí ship không",
+        "Gửi đơn đó mất bao nhiêu tiền",
+        "Ship từ TPHCM ra Hà Nội tốn bao nhiêu"
+      ],
+      "responses": [
+        "Bạn vui lòng cung cấp địa chỉ gửi và nhận để tôi tính phí nhé!",
+        "Cho tôi biết nơi gửi, nơi nhận và kích thước gói hàng để ước tính chi phí."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "doi_dia_chi",
+      "patterns": [
+        "Tôi muốn đổi địa chỉ",
+        "Sai địa chỉ rồi",
+        "Cập nhật địa chỉ mới",
+        "Tôi ghi nhầm địa chỉ",
+        "Đổi nơi giao hàng"
+      ],
+      "responses": [
+        "Vui lòng gửi mã đơn và địa chỉ mới để tôi hỗ trợ cập nhật.",
+        "Bạn có thể cung cấp mã đơn và địa chỉ cần sửa không?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "phuong_thuc_thanh_toan",
+      "patterns": [
+        "Thanh toán như thế nào",
+        "Có COD không",
+        "Trả tiền lúc nào",
+        "Chuyển khoản được không",
+        "Hỗ trợ hình thức thanh toán nào"
+      ],
+      "responses": [
+        "Chúng tôi hỗ trợ thanh toán khi nhận hàng (COD) và chuyển khoản qua Momo, ngân hàng.",
+        "Bạn có thể thanh toán bằng Momo hoặc tiền mặt khi nhận hàng nhé!"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "truyen_thong",
+      "patterns": [
+        "Công ty bạn là gì",
+        "Bạn tên gì",
+        "Bạn làm việc cho ai",
+        "Bạn là bot à",
+        "Chatbot này thuộc công ty nào",
+        "Bạn tên là gì"
+      ],
+      "responses": [
+        "Tôi là trợ lý ảo của Hải Huy Logistics – chuyên về giao hàng liên tỉnh và nội thành.",
+        "Tôi thuộc hệ thống hỗ trợ khách hàng của Hải Huy Logistics."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "khong_lien_quan",
+      "patterns": [
+        "Ai là tổng thống Mỹ",
+        "Trái đất có bao nhiêu nước",
+        "Chơi game không",
+        "Bạn biết Ronaldo không",
+        "Tôi đang buồn",
+        "Ai là tổng thống Mỹ",
+        "Trái đất có bao nhiêu nước",
+        "Chơi game không",
+        "Bạn biết Ronaldo không",
+        "Tôi đang buồn",
+        "Bạn yêu chưa",
+        "Đặt đồ ăn được không",
+        "Mình muốn mua trà sữa",
+        "Gợi ý quán ăn ngon đi",
+        "Chat GPT là gì",
+        "Tôi muốn học tiếng Nhật",
+        "Bạn biết bói bài không",
+        "Đi chơi với tôi không",
+        "Tôi muốn cưa crush",
+        "Bạn có bạn gái chưa",
+        "Bạn thích nhạc gì?",
+        "Kể chuyện cười đi",
+        "Tôi đang chán quá",
+        "Bạn có học đại học không?",
+        "Cho tôi xem hình mèo dễ thương",
+        "Bạn ăn cơm chưa?"
+      ],
+      "responses": [
+        "Tôi là trợ lý cho dịch vụ giao hàng nên không thể hỗ trợ kiến thức ngoài ngành.",
+        "Tôi sẽ hỗ trợ bạn tốt nhất trong phạm vi dịch vụ logistics, các nội dung khác thì tôi không rành lắm ạ."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "gop_y",
+      "patterns": [
+        "Tôi muốn góp ý",
+        "Dịch vụ chưa tốt",
+        "Tôi có ý kiến",
+        "Tôi muốn phản hồi",
+        "Tôi không hài lòng"
+      ],
+      "responses": [
+        "Cảm ơn bạn đã góp ý! Bạn có thể gửi chi tiết hơn để tôi chuyển bộ phận hỗ trợ.",
+        "Chúng tôi xin lỗi vì sự bất tiện. Bạn có thể mô tả thêm để chúng tôi cải thiện?"
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "ho_tro_dang_nhap",
+      "patterns": [
+        "Tôi không đăng nhập được",
+        "Quên mật khẩu rồi",
+        "Không vào được tài khoản",
+        "Lỗi khi đăng nhập",
+        "Đăng nhập bị sai"
+      ],
+      "responses": [
+        "Bạn thử kiểm tra lại email/mật khẩu. Nếu vẫn lỗi, tôi có thể hỗ trợ reset.",
+        "Tôi có thể giúp bạn khôi phục mật khẩu. Vui lòng cho biết email tài khoản."
+      ],
+       "responses_smart": true
+    },
+    {
+      "tag": "huong_dan_gui_hang",
+      "patterns": [
+        "Cách gửi hàng như thế nào",
+        "Gửi hàng cần làm gì",
+        "Thủ tục gửi hàng",
+        "Hướng dẫn tạo đơn",
+        "Tôi muốn gửi bưu kiện"
+      ],
+      "responses": [
+        "Đầu tiên bạn tạo đơn hàng, nhập thông tin người gửi và người nhận. Sau đó chọn dịch vụ vận chuyển.",
+        "Tôi sẽ hướng dẫn từng bước, trước hết bạn cho tôi biết người gửi nhé!"
+      ],
+       "responses_smart": true
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+
+.single-order-row {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.single-order-row:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sorting-header {
+    cursor: pointer;
+}
+
+/* ORDER LIST SPECIFIC STATUS BADGES */
+.order-list__status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.order-list__status-badge--processing {
+    background-color: #FFF5E5;
+    color: #FF9800;
+}
+
+.order-list__status-badge--shipping {
+    background-color: #E1F5FE;
+    color: #03A9F4;
+}
+
+.order-list__status-badge--pending {
+    background-color: #F5E6FF;
+    color: #9C27B0;
+}
+
+.order-list__status-badge--delivered {
+    background-color: #E8F5E9;
+    color: #4CAF50;
+}
+
+/* Legacy support - keep old class names working */
+.status-processing {
+    background-color: #FFF5E5;
+    color: #FF9800;
+}
+
+.status-shipping {
+    background-color: #E1F5FE;
+    color: #03A9F4;
+}
+
+.status-pending {
+    background-color: #F5E6FF;
+    color: #9C27B0;
+}
+
+.status-delivered {
+    background-color: #E8F5E9;
+    color: #4CAF50;
+}
+
+.progress-table {
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+/* Enhanced table styling for better alignment */
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 8px;
+}
+
+/* Keep first column (Loại xe) left-aligned for readability */
+.table th:first-child,
+.table td:first-child {
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Compact button styling */
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 4px;
+    min-width: auto;
+    white-space: nowrap;
+}
+
+/* Action buttons container for better spacing */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+/* Specific styling for update buttons */
+.btn-update {
+    background-color: #ff5c97;
+    border-color: #ff5c97;
+    color: white;
+    font-size: 11px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.btn-update:hover {
+    background-color: #e54a85;
+    border-color: #e54a85;
+    transform: scale(1.05);
+}
+
+/* Specific styling for detail buttons */
+.btn-detail {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    font-size: 11px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.btn-detail:hover {
+    background-color: #218838;
+    border-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Pagination styling */
+.page-link {
+    color: #ff5c97;
+    cursor: pointer;
+}
+
+.page-item.active .page-link {
+    background-color: #ff5c97;
+    border-color: #ff5c97;
+}
+
+/* Table header improvements */
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    color: #495057;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table th,
+    .table td {
+        padding: 8px 4px;
+        font-size: 14px;
+    }
+
+    .btn-sm {
+        padding: 2px 4px;
+        font-size: 10px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+/* Additional enhancements */
+.table-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #e8f4fd;
+}
+
+/* License plate number styling */
+.license-plate {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Status column improvements */
+.status-column {
+    min-width: 120px;
+}

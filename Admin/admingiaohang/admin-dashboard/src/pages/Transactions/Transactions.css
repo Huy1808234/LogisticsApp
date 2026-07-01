@@ -1,0 +1,132 @@
+.tr-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+.tr-card-header {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tr-card-header h3 {
+  font-size: 1.4em;
+  color: #4caf50;
+}
+
+.tr-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95em;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tr-btn-sm {
+  padding: 6px 10px;
+  font-size: 0.85em;
+}
+
+.tr-btn-primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tr-btn-warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+.tr-btn-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.tr-btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.tr-form-group {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.tr-form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.tr-form-group input,
+.tr-form-group select,
+.tr-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tr-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tr-table th,
+.tr-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.tr-table th {
+  background-color: #f9f9f9;
+}
+
+.tr-table tbody tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+.tr-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tr-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.tr-modal-content {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.tr-section {
+  padding: 20px;
+}
